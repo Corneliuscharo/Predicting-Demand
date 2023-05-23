@@ -1,0 +1,50 @@
+---
+title: "Untitled"
+output: word_document
+date: "2023-05-09"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r}
+library(readxl)
+Hospital_Inpatient_Data <- read_excel("C:/Users/User/Desktop/Hospital_Inpatient_Data.xlsx")
+
+```
+
+#  Data exploration
+```{r}
+library(psych)
+summary(Hospital_Inpatient_Data)
+describe(Hospital_Inpatient_Data)
+```
+
+
+#  Data Visualization
+```{r}
+library(ggplot2)
+library(plotly)
+
+
+
+```
+
+
+#  
+```{r}
+
+```
+
+
+
+
+
+
+
+
+
+
+
